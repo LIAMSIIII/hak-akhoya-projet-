@@ -1,0 +1,95 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there"],
+        "responses": ["Hi there! How can I assist you today?"]
+      },
+      {
+        "tag": "medical_purpose",
+        "patterns": ["I have a medical question", "Health-related inquiry", "Medical issue"],
+        "responses": ["Sure, I can help you with that. Do you want to assess your risk of heart disease or predict brain tumor?"]
+      },
+      {
+        "tag": "heart_disease",
+        "patterns": ["Heart disease", "Assess heart disease risk", "Heart problem"],
+        "responses": ["Let's assess your risk of heart disease. Please provide me with the necessary information."]
+      },
+      {
+        "tag": "brain_tumor",
+        "patterns": ["Brain tumor", "Detect brain tumor", "Brain problem"],
+        "responses": ["Let's detect if you have a brain tumor. Please provide me with an image of your brain."]
+      },
+      {
+        "tag": "non_medical",
+        "patterns": ["Non-medical query", "General inquiry", "Non-medical question"],
+        "responses": ["I'm sorry, I can only assist with medical queries at the moment."]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What is your age?", "Please enter your age."],
+        "responses": []
+      },
+      {
+        "tag": "sex",
+        "patterns": ["What is your gender?", "Are you male or female?", "Please specify your gender.", "Male", "Female"],
+        "responses": []
+      },
+      {
+        "tag": "chest_pain_type",
+        "patterns": ["Please specify the type of chest pain.(0,1,2,3)"],
+        "responses": []
+      },
+      {
+        "tag": "resting_blood_pressure",
+        "patterns": ["What is your resting blood pressure? (90-200)", "Please provide your resting blood pressure value. (90-200)"],
+        "responses": []
+      },
+      {
+        "tag": "serum_cholestoral",
+        "patterns": ["What is your serum cholestoral level?  (120-600)", "Please provide your serum cholestoral level value. (120-600)"],
+        "responses": []
+      },
+      {
+        "tag": "fasting_blood_sugar",
+        "patterns": ["Is your fasting blood sugar level greater than 120mg/dl?  (Yes/No)"],
+        "responses": []
+      },
+      {
+        "tag": "resting_ecg",
+        "patterns": ["What is your resting electrocardiographic result? (0,2)", "Please provide your resting electrocardiographic result value. (0,2)"],
+        "responses": []
+      },
+      {
+        "tag": "max_heart_rate",
+        "patterns": ["What is your maximum heart rate achieved? (70-210)", "Please provide your maximum heart rate achieved value. (70-210)"],
+        "responses": []
+      },
+      {
+        "tag": "exercise_induced_angina",
+        "patterns": ["Do you experience exercise-induced angina? (Yes/No)", "Have you experienced angina during exercise? (Yes/No)", "Please specify if you experience exercise-induced angina. (Yes/No)"],
+        "responses": []
+      },
+      {
+        "tag": "st_depression",
+        "patterns": ["What is your ST depression induced by exercise relative to rest? (0-6.5)", "Please provide your ST depression value. (0-6.5)"],
+        "responses": []
+      },
+      {
+        "tag": "st_slope",
+        "patterns": ["What is the slope of the peak exercise ST segment? (0-2)", "Please provide the slope of the peak exercise ST segment value. (0-2)"],
+        "responses": []
+      },
+      {
+        "tag": "num_major_vessels",
+        "patterns": ["How many major vessels (0-3) colored by fluoroscopy do you have?", "Please specify the number of major vessels colored by fluoroscopy. (0-3)"],
+        "responses": []
+      },
+      {
+        "tag": "thal",
+        "patterns": ["What is your thalassemia type? (0 = normal; 1 = fixed defect; 2 = reversable defect)", "Please provide your thalassemia type value. (0 = normal; 1 = fixed defect; 2 = reversable defect)"],
+        "responses": []
+      }
+    ]
+  }
+  
